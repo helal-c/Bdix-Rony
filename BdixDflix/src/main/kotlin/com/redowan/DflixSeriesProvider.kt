@@ -40,7 +40,7 @@ class DflixSeriesProvider : MainAPI() { // all providers must be an instance of 
     override val hasQuickSearch = false
     override var lang = "bn"
     override val supportedTypes = setOf(
-    
+            TvType.series)
 
 
     private var loginCookie: Map<String, String>? = null
