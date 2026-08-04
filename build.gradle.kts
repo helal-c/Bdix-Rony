@@ -49,12 +49,12 @@ subprojects {
     apply(plugin = "com.lagradost.cloudstream3.gradle")
 
     cloudstream {
-        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/redowan99/Redowan-CloudStream")
-        authors = listOf("Redowan")
+        setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/helal-c/Bdix-Rony")
+        authors = listOf("Rony")
     }
 
     android {
-        namespace = "com.Redowan"
+        namespace = "com.Rony"
         compileSdk = 36
 
         defaultConfig {
