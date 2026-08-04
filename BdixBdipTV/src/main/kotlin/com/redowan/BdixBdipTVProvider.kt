@@ -35,6 +35,7 @@ open class BdixBdipTVProvider : MainAPI() {
     override val supportedTypes = setOf(TvType.Live)
     open val liveServer = "http://103.89.248.30:8082"
     private val category = mapOf(
+        "All Channels" to "All Channels",
         "lsports" to "Live Sports",
         "sports" to "Sports",
         "news" to "News",
