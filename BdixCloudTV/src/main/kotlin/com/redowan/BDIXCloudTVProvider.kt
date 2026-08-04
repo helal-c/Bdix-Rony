@@ -32,7 +32,24 @@ class BDIXCloudTVProvider : MainAPI() {
     override val hasMainPage = true
     override val hasDownloadSupport = false
     override val hasQuickSearch = false
-    override val supportedTypes = setOf(TvType.Live)
+        override val supportedTypes = setOf(TvType.Live)
+    open val liveServer = "http://172.19.178.180"
+    
+    private val category = mapOf(
+        "1_live" to "1_LIVE",
+        "bangladeshi" to "Bangladeshi",
+        "english" to "English",
+        "hindi" to "Hindi",
+        "indian_bangla" to "Indian_Bangla",
+        "infotainment" to "Infotainment",
+        "kids" to "Kids",
+        "music" to "Music",
+        "news" to "News",
+        "religious" to "Religious",
+        "sports" to "Sports",
+        "urdu" to "Urdu"
+    )
+
 
     override suspend fun getMainPage(
         page: Int, request: MainPageRequest
