@@ -25,7 +25,7 @@
     {
         "url": "https://raw.githubusercontent.com/helal-c/Bdix-Rony/builds/BdixBdipTV.cs3",
         "status": 1,
-        "version": 8,
+        "version": 9,
         "name": "BdixBdipTV",
         "internalName": "BdixBdipTV",
         "authors": [
@@ -93,7 +93,7 @@
     {
         "url": "https://raw.githubusercontent.com/helal-c/Bdix-Rony/builds/BdixDflix.cs3",
         "status": 1,
-        "version": 9,
+        "version": 10,
         "name": "BdixDflix",
         "internalName": "BdixDflix",
         "authors": [
@@ -197,7 +197,7 @@
     {
         "url": "https://raw.githubusercontent.com/helal-c/Bdix-Rony/builds/BdixRoarZoneTV.cs3",
         "status": 1,
-        "version": 4,
+        "version": 5,
         "name": "BdixRoarZoneTV",
         "internalName": "BdixRoarZoneTV",
         "authors": [
