@@ -27,7 +27,7 @@ import org.jsoup.nodes.Element
 //}
 
 open class NineKMoviesProvider : MainAPI() {
-    override var mainUrl = "https://9kmovies.ren/m"
+    override var mainUrl = "https://9kmovies.delhi.in/"
     override var name = "9kMovies"
     override var lang = "en"
     override val hasMainPage = true
@@ -59,7 +59,7 @@ open class NineKMoviesProvider : MainAPI() {
         val imageUrl = post.select("figure img").attr("src")
         return newMovieSearchResponse(title, url, TvType.Movie) {
             this.posterUrl = imageUrl
-            this.posterHeaders = mapOf("Referer" to " https://9kmovies.ren/")
+            this.posterHeaders = mapOf("Referer" to "https://9kmovies.delhi.in/")
         }
     }
 
