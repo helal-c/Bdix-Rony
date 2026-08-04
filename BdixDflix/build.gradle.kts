@@ -1,5 +1,5 @@
 // use an integer for version numbers
-version = 10
+version = 10.1
 
 android {
     namespace = "com.redowan"
