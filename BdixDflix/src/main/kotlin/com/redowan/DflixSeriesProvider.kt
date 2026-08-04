@@ -39,8 +39,17 @@ class DflixSeriesProvider : MainAPI() { // all providers must be an instance of 
     override val hasDownloadSupport = true
     override val hasQuickSearch = false
     override var lang = "bn"
-    override val supportedTypes = setOf(TvType.series)
-
+    override val supportedTypes = setOf(
+        TvType.Movie,
+        TvType.Series
+    )
+    override val mainPage = mainPageOf(
+        "category/Bangla" to "Bangla",
+        "category/English" to "English",
+        "category/Hindi" to "Hindi",
+        "category/Tamil" to "Tamil",
+        "category/Animation" to "Animation",
+        "category/Others" to "Others"
 
     private var loginCookie: Map<String, String>? = null
     private suspend fun login() {
