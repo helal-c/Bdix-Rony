@@ -59,7 +59,7 @@ class DflixSeriesProvider : MainAPI() { // all providers must be an instance of 
     private suspend fun login() {
         if (loginCookie?.size != 2) {
             val client =
-                app.get("https://movies.discoveryftp.net/", allowRedirects = false)
+                app.get("https://movies.discoveryftp.net/s", allowRedirects = false)
             loginCookie = client.cookies
         }
     }
