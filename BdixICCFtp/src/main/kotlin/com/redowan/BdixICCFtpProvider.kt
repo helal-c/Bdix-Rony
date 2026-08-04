@@ -34,7 +34,7 @@ import org.jsoup.nodes.Element
 //}
 
 open class BdixICCFtpProvider : MainAPI() {
-    override var mainUrl = "http://10.16.100.244/"
+    override var mainUrl = "http://10.16.100.244/dashboard.php?session=1&category=0"
     override var name = "(BDIX) ICC Ftp"
     override val hasMainPage = true
     override val hasDownloadSupport = true
