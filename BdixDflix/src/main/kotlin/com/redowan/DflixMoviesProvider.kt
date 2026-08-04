@@ -43,6 +43,7 @@ class DflixMoviesProvider : MainAPI() { // all providers must be an instance of 
     override val supportedTypes = setOf(
         TvType.Movie,
         TvType.AnimeMovie
+        TvType.Series
     )
     override val mainPage = mainPageOf(
         "category/Bangla" to "Bangla",
