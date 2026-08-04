@@ -26,23 +26,28 @@ import org.jsoup.nodes.Element
 //}
 
 class BdixRoarZoneTVProvider : MainAPI() {
-    override var mainUrl = "http://tv.roarzone.info/"
+    override var mainUrl = "http://172.19.17.28/"
     override var name = "(BDIX) RoarZone TV"
     override var lang = "bn"
     override val hasMainPage = true
     override val hasDownloadSupport = false
     override val hasQuickSearch = false
     override val supportedTypes = setOf(TvType.Live)
+        override val supportedTypes = setOf(TvType.Live)
+    open val liveServer = "http://172.19.17.28/"
+    
     private val category = mapOf(
-        "bangla" to "Bangla",
+        "fifa" to "FIFA",
         "sports" to "Sports",
+        "bangla" to "Bangla",
         "hindi" to "Hindi",
-        "inbangla" to "Indian Bangla",
-        "english" to "English",
-        "documentary" to "Documentary",
+        "news" to "News",
+        "music" to "Music",
         "kids" to "Kids",
-        "music" to "Music"
+        "english" to "English"
     )
+
+    
 
     override suspend fun getMainPage(
         page: Int,
