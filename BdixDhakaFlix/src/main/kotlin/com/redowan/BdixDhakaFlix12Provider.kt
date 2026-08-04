@@ -4,7 +4,7 @@ import com.lagradost.cloudstream3.TvType
 import com.lagradost.cloudstream3.mainPageOf
 
 class BdixDhakaFlix12Provider : BdixDhakaFlix14Provider()  {
-    override var mainUrl = "http://172.16.50.12"
+    override var mainUrl = "http://172.16.50.12/DHAKA-FLIX-12/TV-WEB-Series/"
     override var name = "(BDIX) DhakaFlix 12"
     override val tvSeriesKeyword: List<String> = listOf("TV-WEB-Series")
     override val serverName: String = "DHAKA-FLIX-12"
