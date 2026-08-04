@@ -50,11 +50,11 @@ subprojects {
 
     cloudstream {
         setRepo(System.getenv("GITHUB_REPOSITORY") ?: "https://github.com/helal-c/Bdix-Rony")
-        authors = listOf("Rony")
+        authors = listOf("Redowan")
     }
 
     android {
-        namespace = "com.Rony"
+        namespace = "com.Redowan"
         compileSdk = 36
 
         defaultConfig {
