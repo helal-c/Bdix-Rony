@@ -49,7 +49,7 @@ class DflixSeriesProvider : MainAPI() { // all providers must be an instance of 
     private suspend fun login() {
         if (loginCookie?.size != 2) {
             val client =
-                app.get("https://dhakamovie.com/", allowRedirects = false)
+                app.get("172.17.50.240", allowRedirects = false)
             loginCookie = client.cookies
         }
     }
