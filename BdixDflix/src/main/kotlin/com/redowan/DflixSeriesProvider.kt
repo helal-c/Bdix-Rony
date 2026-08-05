@@ -28,7 +28,7 @@ import org.jsoup.nodes.Element
 ////    providerTester.testAll()
 ////    providerTester.testMainPage(verbose = true)
 ////    providerTester.testSearch(query = "game of",verbose = true)
-//    providerTester.testLoad("https://movies.discoveryftp.net/s/view/5967")
+//    providerTester.testLoad("https://dhakamovie.com/movies/watch/the-isolate-thief-2026")
 //}
 
 
@@ -43,13 +43,7 @@ class DflixSeriesProvider : MainAPI() { // all providers must be an instance of 
         TvType.Movie,
         TvType.Series
     )
-    override val mainPage = mainPageOf(
-        "category/Bangla" to "Bangla",
-        "category/English" to "English",
-        "category/Hindi" to "Hindi",
-        "category/Tamil" to "Tamil",
-        "category/Animation" to "Animation",
-        "category/Others" to "Others"
+   
 
     private var loginCookie: Map<String, String>? = null
     private suspend fun login() {
