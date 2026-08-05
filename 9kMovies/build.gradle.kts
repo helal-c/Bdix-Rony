@@ -7,7 +7,7 @@ android {
 
 cloudstream {
     description = "Included:10HitMovies"
-    authors = listOf("salman731","Dilip")
+    authors = listOf("Redowan")
 
     /**
     * Status int as the following:
