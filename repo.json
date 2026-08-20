@@ -1,8 +1,8 @@
 ﻿{
-    "name": "Rony's BDIX repository",
-    "description": "Rony's BDIX repository",
-    "manifestVersion": 1,
-    "pluginLists": [
-        "https://raw.githubusercontent.com/helal-c/Bdix-Rony/master/builds/plugins.json"
-    ]
+  "name": "Rony's BDIX repository",
+  "description": "Rony's BDIX repository",
+  "manifestVersion": 1,
+  "pluginLists": [
+    "https://raw.githubusercontent.com/helal-c/Bdix-Rony/builds/plugins.json"
+  ]
 }
