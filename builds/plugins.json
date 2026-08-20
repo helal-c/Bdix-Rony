@@ -1,10 +1,10 @@
 ﻿[
   {
-    "url": "https://raw.githubusercontent.com/helal-c/Bdix-Rony/master/builds/XtremexBDIX.cs3",
-    "status": 1,
+    "name": "Xtremex BDIX",
+    "internalName": "XtremexBDIX",
     "version": 1,
     "apiVersion": 1,
-    "name": "Xtremex BDIX",
-    "internalName": "XtremexBDIX"
+    "status": 1,
+    "url": "https://raw.githubusercontent.com/helal-c/Bdix-Rony/master/builds/XtremexBDIX.cs3"
   }
 ]
