@@ -1,10 +1,24 @@
 ﻿[
   {
-    "name": "Xtremex BDIX",
-    "internalName": "XtremexBDIX",
+    "url": "https://raw.githubusercontent.com/helal-c/Bdix-Rony/builds/XtremexBDIX.cs3",
+    "status": 1,
     "version": 1,
     "apiVersion": 1,
-    "status": 1,
-    "url": "https://raw.githubusercontent.com/helal-c/Bdix-Rony/builds/XtremexBDIX.cs3"
+    "name": "Xtremex BDIX",
+    "internalName": "XtremexBDIX",
+    "authors": [
+      "Redowan"
+    ],
+    "description": "Xtreme'x BDIX Live TV and FTP Servers",
+    "repositoryUrl": "https://github.com/helal-c/Bdix-Rony",
+    "tvTypes": [
+      "Live",
+      "Movie",
+      "TvSeries",
+      "Anime"
+    ],
+    "language": "bn",
+    "fileSize": 16541,
+    "fileHash": "sha256-5d8d92d963c0de2782a5b5ebef05f1d0b6faae57030aa911c5984428f90b1289"
   }
 ]
