@@ -1,1 +1,12 @@
-**/build/\n.gradle/\n.idea/\n*.iml\nlocal.properties\n
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+**/build/
+build/
